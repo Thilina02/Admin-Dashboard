@@ -4,7 +4,6 @@ import {
   Route,
   useLocation
 } from 'react-router-dom';
-import Home from './pages/Home';
 import './css/style.css';
 import Datepicker from './components/Datepicker';
 import DropdownEditMenu from './components/DropdownEditMenu';
@@ -35,7 +34,6 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
-        <Route exact path="/Home" element={<Home />} />
         <Route exact path="/DateSelect" element={<DateSelect />} />
         <Route exact path="/Datepicker" element={<Datepicker />} />
         <Route exact path="/DropdownEditMenu" element={<DropdownEditMenu />} />
