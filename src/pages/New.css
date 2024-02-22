@@ -1,0 +1,7 @@
+.h1Css{
+    background-color: aqua;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -17,6 +17,7 @@ import DropdownHelp from './components/DropdownHelp';
 import './charts/ChartjsConfig';
 import WelcomeBanner from './partials/dashboard/WelcomeBanner';
 import DateSelect from './components/DateSelect';
+import New from './pages/New';
 // Import pages
 import Dashboard from './pages/Dashboard';
 
@@ -45,6 +46,7 @@ function App() {
         <Route exact path="/Tooltip" element={<Tooltip />} />
         <Route exact path="/DropdownHelp" element={<DropdownHelp />} />
         <Route exact path="/WelcomeBanner" element={<WelcomeBanner />} />
+        <Route exact path="/New" element={<New />} />
       </Routes>
     </>
   );
